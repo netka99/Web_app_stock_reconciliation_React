@@ -1,33 +1,47 @@
+import * as React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 import logo from '../assets/Logo_SK.png';
+import { useProductsContext } from '../context/products_context';
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
+  const { isSidebarOpen, closeSidebar } = useProductsContext();
+
   return (
     <SidebarContainer>
-      <aside className="sidebar show-sidebar">
+      <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
         <div className="sidebar-header">
           <img src={logo} className="logo" alt="logo Smaczny Kąsek" />
-          <button className="close-btn" type="button">
+          <button className="close-btn" type="button" onClick={closeSidebar}>
             <FaTimes />
           </button>
         </div>
         <ul className="links">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeSidebar}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/sale">Sprzedaż</Link>
+            <Link to="/sale" onClick={closeSidebar}>
+              Sprzedaż
+            </Link>
           </li>
           <li>
-            <Link to="/zestawienie">Zestawienie</Link>
+            <Link to="/zestawienie" onClick={closeSidebar}>
+              Zestawienie
+            </Link>
           </li>
           <li>
-            <Link to="/wykresy">Wykresy</Link>
+            <Link to="/wykresy" onClick={closeSidebar}>
+              Wykresy
+            </Link>
           </li>
           <li>
-            <Link to="/ustawienia">Ustawienia</Link>
+            <Link to="/ustawienia" onClick={closeSidebar}>
+              Ustawienia
+            </Link>
           </li>
         </ul>
       </aside>

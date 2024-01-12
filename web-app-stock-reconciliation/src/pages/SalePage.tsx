@@ -1,9 +1,15 @@
-import styled from 'styled-components'
+import * as React from 'react';
+import styled from 'styled-components';
+import { Navbar, Sidebar } from '../components/index';
 
-const SalePage = () => {
-  return <h4>Sale page</h4>
-}
+const SalePage: React.FC = () => {
+  const pageTitle = 'Sprzedaż';
+  return (
+    <main>
+      <Navbar pageTitle={pageTitle} />
+      <Sidebar />
+    </main>
+  );
+};
 
-
-
-export default SalePage
+export default SalePage;

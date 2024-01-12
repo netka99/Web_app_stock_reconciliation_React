@@ -1,11 +1,15 @@
+import * as React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import logo from '../assets/Logo_SK.png';
 import backgroundImgBig from '../assets/backgroundBig.png';
 import backgroundImgS from '../assets/background.png';
+import { useProductsContext } from '../context/products_context';
 
-const Navbar = () => {
+const Navbar: React.FC<{ pageTitle: string }> = ({ pageTitle }) => {
+  const { openSidebar } = useProductsContext();
+
   return (
     <NavContainer>
       <div className="nav-center">
@@ -13,7 +17,7 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} className="nav-logo" alt="logo Smaczny Kąsek" />
           </Link>
-          <button type="button" className="nav-toggle">
+          <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
           </button>
         </div>
@@ -36,7 +40,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="nav-background">
-        <div className="backgroundImage"></div>
+        <div className="backgroundImage">
+          <div className="textWelcome">{pageTitle}</div>
+        </div>
       </div>
     </NavContainer>
   );
@@ -134,7 +140,7 @@ const NavContainer = styled.nav`
 
     @media screen and (max-width: 576px) {
       background-image: url(${backgroundImgS});
-      background-size: 120%;
+      background-size: 100%;
     }
 
     @media screen and (min-width: 426px) and (max-width: 576px) {
@@ -155,6 +161,22 @@ const NavContainer = styled.nav`
 
     @media screen and (min-width: 1700px) {
       height: 320px;
+    }
+  }
+
+  .textWelcome {
+    padding: 1.5rem 2rem 0rem 2rem;
+    color: #ececec;
+    font-size: 1.6rem;
+    font-weight: bolder;
+
+    @media screen and (max-width: $tablet) {
+      font-size: 1.3rem;
+      padding: 0.6em 1rem;
+    }
+
+    @media screen and (min-width: 1023px) {
+      padding: 2rem 2rem 0rem 2rem;
     }
   }
 `;

@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Sidebar, Footer } from './components/index';
 import {
@@ -6,6 +7,7 @@ import {
   SummaryPage,
   GraphsPage,
   SettingsPage,
+  ErrorPage,
   // SettingsPricesPage,
   // SettingsShopsPage,
 } from './pages/index';
@@ -14,15 +16,15 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Sidebar />
+      {/* <Navbar />
+      <Sidebar /> */}
       <Routes>
-        <Route path="/" exact element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="sprzedaz" element={<SalePage />} />
         <Route path="zestawienie" element={<SummaryPage />} />
         <Route path="wykresy" element={<GraphsPage />} />
         <Route path="ustawienia" element={<SettingsPage />} />
-        {/* <Route path='*' element={<ErrorPage />} /> */}
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </Router>

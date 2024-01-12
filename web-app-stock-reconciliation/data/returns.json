@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 2,
+    "date": "2023-12-05"
+  },
+  {
+    "id": 2,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 3,
+    "date": "2023-12-05"
+  },
+  {
+    "id": 3,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 3,
+    "date": "2023-12-06"
+  },
+  {
+    "id": 4,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 8,
+    "date": "2023-12-06"
+  },
+  {
+    "id": 5,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 9,
+    "date": "2023-12-04"
+  },
+  {
+    "id": 6,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 6.6,
+    "date": "2023-12-05"
+  },
+  {
+    "id": 7,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Putry",
+    "quantity": 4,
+    "date": "2023-12-01"
+  },
+  {
+    "id": 8,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 2,
+    "date": "2023-12-01"
+  },
+  {
+    "id": 9,
+    "product": "Babka",
+    "shop": "Lewiatan-Putry",
+    "quantity": 3.5,
+    "date": "2023-12-06"
+  },
+  {
+    "id": 10,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 11,
+    "date": "2023-12-07"
+  },
+  {
+    "id": 11,
+    "product": "Kartacze",
+    "shop": "Stan-Maja",
+    "quantity": 3,
+    "date": "2023-12-07"
+  },
+  {
+    "id": 12,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 2,
+    "date": "2023-12-07"
+  },
+  {
+    "id": 13,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 4,
+    "date": "2023-12-11"
+  },
+  {
+    "id": 14,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 1,
+    "date": "2023-12-11"
+  },
+  {
+    "id": 15,
+    "product": "Babka",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 0.5,
+    "date": "2023-12-11"
+  },
+  {
+    "id": 16,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 5,
+    "date": "2023-12-12"
+  },
+  {
+    "id": 17,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 9,
+    "date": "2023-12-12"
+  },
+  {
+    "id": 18,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Putry",
+    "quantity": 2,
+    "date": "2023-12-12"
+  },
+  {
+    "id": 19,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 5,
+    "date": "2023-12-13"
+  },
+  {
+    "id": 20,
+    "product": "Kartacze",
+    "shop": "Stan-Maja",
+    "quantity": 7,
+    "date": "2023-12-13"
+  },
+  {
+    "id": 21,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 7,
+    "date": "2023-12-13"
+  },
+  {
+    "id": 22,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 8,
+    "date": "2023-12-13"
+  },
+  {
+    "id": 23,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 1,
+    "date": "2023-12-13"
+  },
+  {
+    "id": 24,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 10,
+    "date": "2023-12-14"
+  },
+  {
+    "id": 25,
+    "product": "Babka",
+    "shop": "Eden-Noniewicza",
+    "quantity": 2.4,
+    "date": "2023-12-14"
+  },
+  {
+    "id": 26,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Putry",
+    "quantity": 1,
+    "date": "2023-12-14"
+  },
+  {
+    "id": 27,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 3,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 28,
+    "product": "Babka",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 3,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 29,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 3,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 30,
+    "product": "Babka",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 1.2,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 31,
+    "product": "Babka",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 1.2,
+    "date": "2023-12-15"
+  },
+  {
+    "id": 32,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 2,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 33,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 1,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 34,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 1,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 35,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Putry",
+    "quantity": 4,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 36,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 1,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 37,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 2,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 38,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 3,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 39,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 10,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 40,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 6,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 41,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 9,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 42,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 5,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 43,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 1,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 44,
+    "product": "Kartacze",
+    "shop": "Stan-Maja",
+    "quantity": 60,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 45,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 5,
+    "date": "2023-12-20"
+  },
+  {
+    "id": 46,
+    "product": "Babka",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 2,
+    "date": "2023-12-20"
+  },
+  {
+    "id": 47,
+    "product": "Babka",
+    "shop": "Eden-Noniewicza",
+    "quantity": 8,
+    "date": "2023-12-20"
+  },
+  {
+    "id": 48,
+    "product": "Babka",
+    "shop": "Lewiatan-Sikorskiego",
+    "quantity": 3,
+    "date": "2023-12-20"
+  },
+  {
+    "id": 49,
+    "product": "Kartacze",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 4,
+    "date": "2023-12-21"
+  },
+  {
+    "id": 50,
+    "product": "Kartacze",
+    "shop": "Eden-Noniewicza",
+    "quantity": 2,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 51,
+    "product": "Babka",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 0.7,
+    "date": "2023-12-19"
+  },
+  {
+    "id": 52,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 6,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 53,
+    "product": "Babka",
+    "shop": "Eden-Noniewicza",
+    "quantity": 2,
+    "date": "2023-12-18"
+  },
+  {
+    "id": 54,
+    "product": "Babka",
+    "shop": "Lewiatan-Świerkowa",
+    "quantity": 1.5,
+    "date": "2023-12-21"
+  },
+  {
+    "id": 55,
+    "product": "Babka",
+    "shop": "Lewiatan-Waryńskiego",
+    "quantity": 3.2,
+    "date": "2023-12-29"
+  },
+  {
+    "id": 56,
+    "product": "Kartacze",
+    "shop": "Lewiatan-W.Polskiego",
+    "quantity": 3,
+    "date": "2023-12-29"
+  }
+]
