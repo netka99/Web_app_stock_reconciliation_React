@@ -60,7 +60,7 @@ export const homeLabels = [
 export const settingsLabels = [
   {
     id: 1,
-    url: '/shops',
+    url: '/sklepy',
     icon: store,
     title: 'Lista Sklepów',
     bcgprimary: '#ff4dff',
@@ -70,7 +70,7 @@ export const settingsLabels = [
   },
   {
     id: 2,
-    url: '/prices',
+    url: '/ceny',
     icon: priceTag,
     title: 'Ceny produktów',
     bcgprimary: '#0e06e8',

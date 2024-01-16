@@ -8,8 +8,8 @@ import {
   GraphsPage,
   SettingsPage,
   ErrorPage,
-  // SettingsPricesPage,
-  // SettingsShopsPage,
+  SettingsPricesPage,
+  SettingsShopsPage,
 } from './pages/index';
 import './App.css';
 
@@ -24,6 +24,8 @@ function App() {
         <Route path="zestawienie" element={<SummaryPage />} />
         <Route path="wykresy" element={<GraphsPage />} />
         <Route path="ustawienia" element={<SettingsPage />} />
+        <Route path="sklepy" element={<SettingsShopsPage />} />
+        <Route path="ceny" element={<SettingsPricesPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
